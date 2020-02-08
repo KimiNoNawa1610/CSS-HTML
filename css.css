@@ -1,0 +1,18 @@
+body{
+    font-family: arial
+}
+h1,h2{
+    color: #535;
+}
+p{
+    background: #666;
+    color: white;
+    padding: 10px;
+}
+.secondary{
+    
+    background: #356;
+    color: white;
+    padding: 10px;
+}
+class will not be overrided
