@@ -676,9 +676,12 @@
 
     text-align: right;
 
-    min-width: 190px;
+    min-width: 194px;
 
-    font-size: 24px;
+    font-size: 14px;
+
+    font-weight: bold;
+
 
 }
 
