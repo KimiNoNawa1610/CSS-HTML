@@ -1,3 +1,9 @@
+html {
+
+  scroll-behavior: smooth;
+  
+}
+
 *{
 
     margin: 0px;
@@ -247,6 +253,25 @@
 
     }
 
+    .timeline p{
+
+        font-size: 28px;
+
+    }
+
+    .timeline .date::before{
+
+        font-size: 20px;
+    }
+
+    form{
+
+        width: 100%;
+
+    }
+
+
+
 }
 
 
@@ -435,7 +460,7 @@
 
     transform: translate(-53%,-50%);
 
-    margin-top: 1500px;
+    margin-top: 750px;
 
 }
 
@@ -557,11 +582,11 @@
 
 }
 
-.Experiences h1{
+.Experiences h2{
 
     display: flex;
     
-    justify-content: space-evenly;
+    justify-content: center;
 
     width: auto;
 
@@ -710,6 +735,100 @@
     background-color: #313534;
 
 }
+
+/* Contact */
+
+.Contact{
+
+    background-color:rgb(41, 40, 43);
+
+    margin-top: 150px;
+
+}
+
+.Contact h1 {
+
+    font-size: 48px;
+
+    color: snow;
+
+    opacity: 0.5;
+
+    text-align: center;
+
+}
+
+.Contact h6{
+
+    text-align: center;
+
+    font-size: 24px;
+
+    color: snow;
+
+    opacity: 0.5;
+
+}
+
+form{
+
+    width:70%;
+
+    margin: 0_auto;
+
+}
+
+form label{
+
+    font-size: 24px;
+
+    color: snow;
+
+    opacity: 0.5;
+
+}
+
+input, select, textarea{
+
+    width:100%;
+
+    padding: 16px;
+
+    margin-bottom: 5px;
+
+    border:none;
+
+    outline-color: #fd57bf;
+
+}
+
+input[type="submit"]{
+
+    width: initial;
+
+    background-color: palegoldenrod;
+
+    padding: 16px 32px;
+
+    border-radius: 13px;
+
+    cursor: pointer;
+
+    transition: background-color 650ms;
+
+    
+
+}
+
+input[type="submit"]:hover{
+
+    color: #221e3f;
+
+    background-color:221e3f;
+
+}
+
+
 
 
 
