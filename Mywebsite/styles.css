@@ -672,16 +672,13 @@
 
     content: attr(data-date);
 
-    left: -218px;
+    left: -209px;
 
     text-align: right;
 
-    min-width: 194px;
+    min-width: 187px;
 
     font-size: 14px;
-
-    font-weight: bold;
-
 
 }
 
@@ -689,15 +686,15 @@
 
     content:"";
 
-    box-shadow: 0 0 0 3px #fd57bf;
+    box-shadow: 0 0 0 2px #fd57bf;
 
-    border-radius: 100%;
+    border-radius: 50%;
 
     left: -20px;
 
-    height: 24px;
+    height: 18px;
 
-    width: 24px;
+    width: 18px;
 
     background-color: #313534;
 
