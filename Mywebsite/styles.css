@@ -517,11 +517,15 @@
 
     font-weight: 500;
 
-    background: linear-gradient(to right, rgb(41, 40, 43),rgb(41, 40, 43));
+    background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+  
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+
+    font-weight: bold;
 
 }
 
@@ -567,13 +571,19 @@
 
     font-weight: 500;
 
-    background: linear-gradient(to right, rgb(41, 40, 43), black);
+    background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+  
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
 
     margin-bottom: 60px;
+
+    font-weight: bold;
+
+    margin-top: 60px;
 
 }
 
@@ -621,6 +631,7 @@
 }
 
 .timeline h1{
+
 
     font-size: 25px;
 
