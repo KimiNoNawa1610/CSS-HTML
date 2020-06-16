@@ -37,11 +37,6 @@ const Animation = () => {
 
     });
 
-    
-
-
-
-
 }
 
 Animation();
