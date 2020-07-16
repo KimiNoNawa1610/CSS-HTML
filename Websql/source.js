@@ -23,6 +23,11 @@ mysqlConnections.connect(function(error){
     }
 })
 
+var select='Select* from users';
 
+mysqlConnections.query(select, function (error,results,fileds) {
+    if(error) throw error;
+    console.log(results);
+});
 
 mysqlConnections.end;
