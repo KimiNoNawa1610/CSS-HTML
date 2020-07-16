@@ -13,12 +13,16 @@ function AddressGenerator(){
     console.log(faker.address.city());
     console.log(faker.address.state());
 }
-
-mysqlConnections.connect(function (error) {
-    if (!!error) {
-        console.log('Error');
+/*Test Connection*/
+mysqlConnections.connect(function(error){
+    if(!!error){
+        console.log('error');
     }
-    else {
+    else{
         console.log('Connected');
     }
 })
+
+
+
+mysqlConnections.end;
