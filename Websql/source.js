@@ -22,12 +22,24 @@ mysqlConnections.connect(function(error){
         console.log('Connected');
     }
 })
-
-var select='Select* from users';
+/* Number of Users*/
+var select ='Select count(*) as total from users ';
 
 mysqlConnections.query(select, function (error,results,fileds) {
     if(error) throw error;
-    console.log(results);
+    console.log(results[0].total);
 });
+/*Insert Data*/
 
+var insert="insert into users(email) values('Nhan@gmail.com');" 
+/*mysqlConnections.query(insert, function (error,results,fileds) {
+    if(error) throw error;
+    console.log(results[0].total);
+}); */
+
+var person={email:faker.internet.email()};
+mysqlConnections.query("Insert into users SET ?",person, function(error,result){
+    if(error) throw error;
+    console.log(result);
+})
 mysqlConnections.end;
