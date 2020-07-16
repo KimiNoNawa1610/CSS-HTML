@@ -9,3 +9,5 @@ create table users(
     created_at datetime default now()
     
 );
+
+insert into users(email) values ("talon.gmail.com"),("Bee.gmail.com");
