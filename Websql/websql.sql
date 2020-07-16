@@ -2,8 +2,6 @@ create database websql;
 
 use websql;
 
-drop table users;
-
 create table users(
 
 	email varchar(255) primary key,
@@ -13,3 +11,5 @@ create table users(
 );
 
 insert into users(email) values ("talon@gmail.com"),("Bee@gmail.com");
+
+select * from users;
